@@ -3,7 +3,6 @@ import {
   FiXCircle,
   FiTrash2,
   FiUserCheck,
-  FiFilter,
 } from "react-icons/fi";
 
 const posts = [
