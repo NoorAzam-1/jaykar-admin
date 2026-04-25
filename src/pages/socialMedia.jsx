@@ -26,7 +26,7 @@ const posts = [
   },
 ];
 
-export default function SocialMedia() {
+export default function socialMedia() {
   return (
     <div>
       {/* 🔥 Header */}

@@ -10,9 +10,9 @@ import Events from "../pages/Events";
 import GroupsManagement from "../pages/GroupsManagement";
 import Membership from "../pages/Membership";
 import SearchConfig from "../pages/SearchConfig";
-import SocialMedia from "../pages/SocialMedia";
-import Notifications from "../pages/Notifications";
 import Bookings from "../pages/Bookings";
+import Notifications from "../pages/Notifications";
+import socialMedia from "../pages/socialMedia";
 import ContentLibrary from "../pages/ContentLibrary";
 import Reports from "../pages/Reports";
 
@@ -28,10 +28,10 @@ export default function AppRoutes() {
           <Route path="/temples" element={<Temples />} />
           <Route path="/maharasaheb" element={<Maharasaheb />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/socialMedia" element={<SocialMedia />} />
           <Route path="/groupsManagement" element={<GroupsManagement />} />
           <Route path="/membership" element={<Membership />} />
           <Route path="/searchConfig" element={<SearchConfig />} />
+          <Route path="/socialMedia" element={<socialMedia />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/bookings" element={<Bookings />} />
           <Route path="/contentLibrary" element={<ContentLibrary />} />
