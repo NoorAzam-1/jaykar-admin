@@ -7,7 +7,7 @@ import {
 } from "react-icons/fi";
 import { GiTempleGate } from "react-icons/gi";
 
-export default function Sidebar() {
+export default function SideBar() {
   const [open, setOpen] = useState(false);
 
   return (
