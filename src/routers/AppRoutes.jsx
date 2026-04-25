@@ -23,6 +23,7 @@ export default function AppRoutes() {
         <Route element={<AdminLayout />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
+          
           <Route path="/panel-users" element={<PanelUsers />} />
           <Route path="/temples" element={<Temples />} />
           <Route path="/maharasaheb" element={<Maharasaheb />} />
