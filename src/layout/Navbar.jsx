@@ -38,11 +38,11 @@ const Navbar = () => {
             className="w-9 h-9 rounded-full flex items-center justify-center text-white"
             style={{ backgroundColor: "#542126" }}
           >
-            N
+            S
           </div>
 
           <div className="hidden md:block">
-            <p className="text-sm font-medium">Noor Azam</p>
+            <p className="text-sm font-medium">Samad</p>
             <p className="text-xs text-gray-500">Admin</p>
           </div>
         </div>
